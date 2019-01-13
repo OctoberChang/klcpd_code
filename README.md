@@ -3,16 +3,14 @@ Code accompanying the ICLR 2019 paper [Kernel Change-point Detection with Auxili
 
 
 # Prerequisites
-    - Python, NumPy, Scipy
+    - Python (v2.7)
     - PyTorch (v0.2.20)
-    - cuda75 v1.0
-    - cudatoolkit v8.0
-    - cudnn 6.0.21
+
 see 
 ```
     cat klcpd_py2.7_pt0.2.0_conda.txt
 ```
-for a detailed package configurations.
+for a example of the detailed package dependencies configurations.
 
 
 # Usage
