@@ -13,7 +13,7 @@ see
 for a example of the detailed package dependencies configurations.
 
 
-# Usage
+# Main Usage
 ```
 python klcpd.py [OPTIONS]
 OPTIONS:
@@ -42,17 +42,11 @@ OPTIONS:
     --save_name SAVE_NAME         model/prediction names   
 ```
 
-For a quick start, please execute ```run_klcpd.py```. See, for example
+# Quick Start on BeeDance dataset
+For a quick start and experiment grid search, please execute ```run_klcpd.py```. For an example on BeeDance dataset:
 ```
-    $ python  [mnist/cifar10/celeba/lsun]
+    $ python run_klcpd.py --dataroot ./data --dataset beedance --wnd_dim_list 25 --max_iter 2000 --batch_size 64 
 ```
-
-# Dataset
-For mnist and cifar10, the dataset will be automatically download if not exist in
-the designated DATAROOT directory.
-
-For CelebA and LSUN dataset, please run the download script in ./data directory.
-
 
 # More Info
 This repository is by
