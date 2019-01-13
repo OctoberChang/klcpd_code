@@ -5,6 +5,7 @@ Code accompanying the ICLR 2019 paper [Kernel Change-point Detection with Auxili
 # Prerequisites
     - Python (v2.7)
     - PyTorch (v0.2.20)
+    - scikit-learn
 
 see 
 ```
