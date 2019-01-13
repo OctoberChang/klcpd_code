@@ -11,7 +11,7 @@ see
 ```
   $ cat klcpd_py2.7_pt0.2.0_conda.txt
 ```
-for a example of the detailed package dependencies configurations.
+for an example of the detailed package dependencies configurations.
 
 
 # Main Usage
