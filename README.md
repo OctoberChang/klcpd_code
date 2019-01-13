@@ -8,7 +8,7 @@ Code accompanying the ICLR 2019 paper [Kernel Change-point Detection with Auxili
 
 see 
 ```
-    cat klcpd_py2.7_pt0.2.0_conda.txt
+  $ cat klcpd_py2.7_pt0.2.0_conda.txt
 ```
 for a example of the detailed package dependencies configurations.
 
@@ -42,13 +42,9 @@ OPTIONS:
     --save_name SAVE_NAME         model/prediction names   
 ```
 
-For a quick start, please set the DATA_PATH variable in run_exp.sh to
+For a quick start, please execute ```run_klcpd.py```. See, for example
 ```
-    ./data
-```
-and run
-```
-	$ ./run_exp.sh [mnist/cifar10/celeba/lsun]
+    $ python  [mnist/cifar10/celeba/lsun]
 ```
 
 # Dataset
