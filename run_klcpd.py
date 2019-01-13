@@ -58,9 +58,9 @@ def run_klcpd_exp(dataset):
             trn_log_path = '%s.trn.log' % (save_path)
             option = '--data_path %s --wnd_dim %d --lambda_ae %f --lambda_real %f --weight_clip %f --max_iter %d --batch_size %d --eval_freq %d --save_path %s' \
                 % (data_path, wnd_dim, lambda_ae, lambda_real, weight_clip, max_iter, batch_size, eval_freq, save_path)
-            cmd = 'CUDA_VISIBLE_DEVICES=%d python -u klcpd.py %s |& tee %s' % (gpu, option, trn_log_path)
-            print(cmd)
-            #os.system(cmd)
+            cmd = 'CUDA_VISIBLE_DEVICES=%d python -u klcpd.py %s 2>&1 | tee %s' % (gpu, option, trn_log_path)
+            #print(cmd)
+            os.system(cmd)
 
 
 # main function call
