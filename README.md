@@ -60,10 +60,11 @@ reproduce the experiments in our paper
 [Kernel Change-point Detection with Auxiliary Deep Generative Models](https://openreview.net/forum?id=r1GbfhRqF7).
 If you find this repository helpful in your publications, please consider citing our paper.
 ```
-@article{chang2018kernel,
-  title={Kernel Change-point Detection with Auxiliary Deep Generative Models},
+@article{chang2019kernel,
+  title={Kernel change-point detection with auxiliary deep generative models},
   author={Chang, Wei-Cheng and Li, Chun-Liang and Yang, Yiming and P{\'o}czos, Barnab{\'a}s},
-  year={2018}
+  journal={arXiv preprint arXiv:1901.06077},
+  year={2019}
 }
 ```
 
